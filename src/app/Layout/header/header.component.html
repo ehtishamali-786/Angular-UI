@@ -1,0 +1,17 @@
+<div class="header">
+    <h1  class="logo">YOUR LOGO</h1>
+    <div class="toggleMenu">
+        
+          <img  src="../../../assets/hamburgermanue.svg" alt="hamburger" (click)="toggleMenu()">
+    </div>
+    <div class="header-menu">
+        
+        <ul [class.is-open]="isMenuOpen">
+            <li>How it works</li>
+            <li>Franchise list</li>
+            <li>Franchising guide</li>
+            <button class="contact-button">Contact</button>
+        </ul>
+      
+    </div>
+</div>

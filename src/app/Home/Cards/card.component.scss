@@ -1,0 +1,18 @@
+.home-section5-imageText-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 3rem;
+    img {
+        width: 120px;
+        height: 120px;
+    }
+
+    p {
+        width: 260px;
+        margin: 0px;
+        font-size: 12px;
+    }
+}
